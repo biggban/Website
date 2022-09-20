@@ -1,0 +1,31 @@
+nav {
+    width: 300px;
+    display: block;
+    position: fixed;
+    top: 10px;
+    left: 20px;
+}
+
+nav p {
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+nav ul > ul {
+    margin-left: 10px;
+    color: #777;
+}
