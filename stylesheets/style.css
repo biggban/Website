@@ -1,0 +1,103 @@
+@import url(/reset.css);
+
+body {
+    width: 800px;
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2.625em;
+    font-weight: bold;
+    line-height: 150%;
+    margin-top: 80px;
+}
+
+p {
+    font-size: 1.375em;
+    margin-top: 22px;
+}
+
+h2 {
+    font-size: 2.125em;
+    font-weight: bold;
+    line-height: 120%;
+    margin-top: 36px;
+}
+
+h3 {
+    font-size: 1.875em;
+    font-weight: bold;
+    line-height: 115%;
+    margin-top: 32px;
+}
+
+h5 {
+    font-size: 1.625em;
+    font-weight: bold;
+    line-height: 105%;
+    margin-top: 26px;
+}
+
+h1 + p {
+    margin-top: 18px;
+}
+
+h2 + p {
+    margin-top: 16px;
+}
+
+h2 + h3 {
+    margin-top: 16px;
+}
+
+h3 + p {
+    margin-top: 16px;
+}
+
+h4 + p {
+    margin-top: 16px;
+}
+
+h5 + p {
+    margin-top: 16px;
+}
+
+h3 + h5 {
+    margin-top: 16px;
+}
+
+blockquote {
+    font-size: 1.375em;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: rgba(0, 0, 0, 0.75);
+    font-style: italic;
+    line-height: 115%;
+}
+
+ul {
+    list-style-type: disc;
+    font-size: 1.375em;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+li {
+    line-height: 125%;
+    margin-top: 16px;
+    text-transform: capitalize;
+    padding-left: 14px;
+    margin-left: 21px;
+}
+
+ol {
+    list-style: decimal;
+    font-size: 1.375em;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+h2 + ul {
+    margin-top: 16px;
+}
